@@ -8,7 +8,7 @@ public class SwitchTest {
 		Random ran = new Random();
 		int num = ran.nextInt(10)+1;
 		System.out.println(num);
-		switch(num) {
+		switch(num) {    //조건문
 		    case 1:
 			    System.out.println("아 1이구나~");
 			    break;
