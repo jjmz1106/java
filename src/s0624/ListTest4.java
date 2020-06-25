@@ -10,7 +10,7 @@ public class ListTest4 {
 		p1.setName("홍길동");
 		p1.setAge(10);
 		
-		Person p2 = p1;   // p2->p1->new Person
+		Person p2 = p1;   
 //		p1 = new Person();
 		p1.setName("일동");
 		System.out.println(p2.getName());
