@@ -18,7 +18,7 @@ public class ListTest {
 	public static void main(String[] args) {
 		List<Animal> aniList = new ArrayList<>();
 		aniList.add(new Animal());
-		aniList.add(new Dog());
+		aniList.add(new Dog());     //Dog를 Animal 이라 부를수 있어 가능
 		
 		for(int i=0;i<aniList.size();i++) {
 			Animal a = aniList.get(i);
